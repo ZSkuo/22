@@ -1,0 +1,43 @@
+--Notif
+local function callback(Text)
+    if Text == "Ok" then
+     print ("")
+   elseif Text == ("") then
+    print ("")
+    end
+   end
+   
+   local NotificationBindable = Instance.new("BindableFunction")
+   NotificationBindable.OnInvoke = callback
+   --
+   game.StarterGui:SetCore("SendNotification",  {
+    Title = "BFG For Yev Remake";
+    Text = "Its not hard 2 use just dont be dumb lmao.";
+    Icon = "http://www.roblox.com/asset/?id=10546566028";
+    Duration = 11;
+    Button1 = "Ok";
+    Button2 = "";
+    Callback = NotificationBindable;
+   })
+   
+
+   local function callback(Text)
+    if Text == "Ok" then
+     print ("")
+   elseif Text == ("") then
+    print ("")
+    end
+   end
+   
+   local NotificationBindable = Instance.new("BindableFunction")
+   NotificationBindable.OnInvoke = callback
+   --
+   game.StarterGui:SetCore("SendNotification",  {
+    Title = "Enjoy annoying retards lmfao";
+    Text = "CREDITS TO WHO MADE IT I JUST EDITED IT 2 WORK";
+    Icon = "http://www.roblox.com/asset/?id=10546566028";
+    Duration = 11;
+    Button1 = "Ok";
+    Button2 = "";
+    Callback = NotificationBindable;
+   })
